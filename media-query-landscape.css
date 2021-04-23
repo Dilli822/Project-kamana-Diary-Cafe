@@ -1,0 +1,279 @@
+
+
+/****ORIENTATION MEDIA QUERIES VARIOUS SCREEN SIZES *****/
+@media only screen and (max-width:1024px) and (orientation: landscape){
+ 
+    h1{
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 4rem;
+        color:rgb(0, 225, 255);
+    }
+    .topnav{
+      height: 12vh;
+    }
+    section.hr-line{
+    display: none;
+  
+    }
+    section.welcome-wrap-right{
+      max-width: 350px;
+    }
+    div.sunday-feature{
+      flex-wrap: nowrap;
+     
+    }
+    /*SECTION FOR LEFT PHOTO FEATURE***/
+  img.feature-left-photo{
+    max-width: 450px;
+  }
+  /*SECTION FOR RIGHT PHOTO FEATURE***/
+  section.feature-right-photo{
+    margin-top: 35px;
+    margin-left: 30px;
+    max-width: 500px;
+  }
+  
+  /***CLIENT'S REVIEW PART***/
+  div.review-part{
+    flex-wrap: nowrap;
+  }
+  
+  
+  }
+  
+  @media only screen and (max-width:1366px)  and (orientation: landscape){
+    div.banner{
+      height: 75vh;
+      padding-top: 250px;
+    }  
+    
+    h1{
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size: 5rem;
+        color:rgb(156, 226, 43);
+    }
+    section.hr-line{
+      margin-left: 640px;
+    
+   } 
+   .topnav{
+     height: 15vh;
+   }
+   section.welcome-wrap-left{
+    margin-left: 350px;
+    max-width: 80%;
+  }
+   /**KNOW==BTN**/
+   button.btn-about-us{
+    margin: 35px -15px;
+     width: 40%;
+    }
+   img.wrap-img-mid{
+    max-width: 450px;
+    height: 60vh;
+  }
+  section.welcome-wrap-right{
+    width: 450px;
+  }
+  /*SECTION FOR LEFT PHOTO FEATURE***/
+  img.feature-left-photo{
+    width: 550px;
+  }
+  /***CLIENT'S REVIEW PART***/
+  div.review-part{
+    flex-wrap: nowrap;
+  }
+  
+  span.social-media-icons a i{
+    font-size: 3rem;
+    margin: 10px 25px 0px 25px;
+    padding-top: 15px;
+   
+  }
+  }
+  
+  @media only screen and (max-width:800px)  and (orientation: landscape){
+  h1{
+    font-size: 3rem;
+    color:red;
+  }
+  div.banner{
+    height: auto;
+  }
+  div.welcome-part{
+    height: auto;
+  }
+  section.welcome-wrap-left{
+    margin-top: 50px;
+    margin-left: 300px;
+    max-width: 500px;
+    height: auto;
+  }
+
+  img.wrap-img-mid{
+    max-width: 300px;
+    height: auto;
+  }
+  section.welcome-wrap-right{
+    max-width: 20px;
+    height: 80vh;
+  }
+   /**KNOW==BTN**/
+   button.btn-about-us{
+    width: auto;
+  } 
+  
+  
+  /*SECTION FOR LEFT PHOTO FEATURE***/
+  img.feature-left-photo{
+    max-width: 400px;
+    margin-left: 25px;
+  }
+  
+  /*SECTION FOR RIGHT PHOTO FEATURE***/
+  section.feature-right-photo{
+    margin-top: 35px;
+    margin-left: 20px;
+    max-width: auto;
+  }
+  /***CLIENT'S REVIEW PART***/
+  div.review-part{
+    flex-wrap: wrap;
+  }
+  }
+  
+  @media screen and (max-width:812px) and (orientation: landscape){
+  h1{
+    color: olivedrab;
+    font-size: 2rem;
+  
+  }
+  
+  .topnav {
+    height: 25vh;
+    position: static;
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  div.banner{
+    height: 105vh;
+  }
+  
+   /**KNOW==BTN**/
+   button.btn-about-us{
+    width: auto;
+  } 
+  
+  section.welcome-wrap-right{
+    max-width: 300px;
+    height: auto;
+  }
+  /*SECTION FOR LEFT PHOTO FEATURE***/
+  img.feature-left-photo{
+    max-width: 400px;
+    margin-left: 25px;
+  
+  }
+  img.wrap-img-mid{
+    height: 120vh;
+    margin: 50px 15px;
+  }
+  
+  /*SECTION FOR RIGHT PHOTO FEATURE***/
+  section.feature-right-photo{
+    margin-top: 35px;
+    margin-left: 20px;
+    height: auto;
+  }
+  /***CLIENT'S REVIEW PART***/
+  div.review-part{
+    flex-wrap: wrap;
+  }
+  }
+  
+  @media screen and (max-width: 736px) and (orientation: landscape){
+  h1{
+    color: pink;
+  }
+  section.welcome-wrap-left{
+    margin-top: 60px;
+    margin-left: 300px;
+    max-width: 450px;
+    
+  }
+  img.wrap-img-mid{
+    height: 100vh;
+  }
+  section.welcome-wrap-right{
+    height: auto;
+   
+  }/*SECTION FOR RIGHT PHOTO FEATURE***/
+  section.feature-right-photo{
+    height: auto;
+  }
+  }
+  
+  @media screen and (max-width: 667px) and (orientation: landscape){
+    h1{
+      color: pink;
+    }
+   
+    section.welcome-wrap-left{
+      margin-top: 60px;
+      margin-left: 300px;
+      max-width: 450px;
+      
+    }
+    img.wrap-img-mid{
+      height:100vh;
+      max-width: auto;
+    }
+    section.welcome-wrap-right{
+      height: 110vh;
+      max-width: auto;
+     
+    }/*SECTION FOR RIGHT PHOTO FEATURE***/
+    section.feature-right-photo{
+      height: auto;
+    }
+    /***-DIV---SUNDAY--FEATURES--WITH--WRAPPER-**/
+  div.sunday-feature{
+    flex-wrap: wrap;
+  }
+  }
+  
+  @media screen and (max-width: 568px) and (orientation: landscape){
+    h1{
+      color:black;
+    }
+    div.banner{
+      height: 150vh;
+    }
+    img.wrap-img-mid{
+      height:80vh;
+      max-width: auto;
+      margin: 0px 25px;
+    }
+    section.welcome-wrap-right{
+      height: 80vh;
+      max-width: 200px;
+    }
+  }
+  
+  

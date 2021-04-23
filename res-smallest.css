@@ -1,0 +1,147 @@
+
+@media only screen and (max-width: 400px) { 
+  h1{
+    color:rgb(0, 17, 255);
+    font-size: 2.5rem;
+    background-color: rgba(58, 56, 56, 0.466);
+  }
+  aside.banner-brief,
+  h3,
+  aside.rountine-time{
+    color:rgb(255, 255, 255);
+    background-color: rgba(58, 56, 56, 0.466);
+  }
+/**=====BANNER--WITH --BG--IMAGES AND TEXT---***/
+/**====WELCOME==PART==STARTS==WITH=PICS***/
+   div.welcome-part{
+  height:auto;
+  }
+   aside.welcome{
+   margin-left: 40px;
+   font-size: 1rem;
+   }
+   aside.menu-brief{
+     font-size: 1.3rem;
+   }
+   p.menu-quotes{
+     font-size: 1.4rem;
+   }
+      section.welcome-wrap-left{
+        margin-left: 0px;
+        margin-top: 450px;
+        height: auto;
+      }
+      
+      img.wrap-img-mid {
+        margin: 25px 0px;
+        width: 290px;
+        height: 60vh;
+      }
+     section.welcome-wrap-right{
+        margin: 0px;
+        max-width: 280px;
+        height: 60vh;
+      }
+       /**KNOW==BTN**/
+       button.btn-about-us{
+       margin: 25px 30px;
+       font-size: 1rem;
+       }
+
+      figure.menu-fig{
+        margin: 25px;
+      }
+
+     /*-------FOOD-MENU-SECTION------**/
+      div.menu-foods-wrap{
+       margin-top: 130px;
+       }
+       p.happy-hours-para{
+         margin-left: 30px;
+         font-size: 0.8rem;
+         margin-bottom: 15px;
+       }
+       span.social-media-icons a i{
+        font-size: 2rem;
+        margin: 0px;
+        padding: 0px;
+      }
+      h2{
+      font-size: 2.4em;
+      }
+      h6{
+        font-size: 2rem;
+      }
+
+      h5{
+      font-size: 1.25rem;
+
+      }
+      img.feature-left-photo{
+        padding: 15px;
+      }
+        }
+
+      @media only screen and (min-width:414px) and (max-width: 736px) {
+        /**====WELCOME==PART==STARTS==WITH=PICS***/
+        div.welcome-part{
+        height: auto;
+        }
+        aside.welcome{
+          margin-left: 40px;
+           }
+        /**====WELCOME==PART==STARTS==WITH=PICS***/
+        section.welcome-wrap-left{
+          margin-left: 0px;
+          margin-top: 450px;
+          height: auto;
+  
+        }
+        figure.menu-fig{
+          margin: 25px;
+        }
+
+        span.social-media-icons a i{
+          margin: 0px;
+        }
+        section.hr-line{
+            width: 18%;
+            margin-left: 160px;
+           
+          }
+          h5{
+            font-size: 1.25rem;
+            }
+             
+        }
+        @media only screen and (max-width: 568px){
+          .logo-head{
+            margin-left: 0px;
+          }
+          img.oval{
+            animation-duration: 65s;
+          }
+        }
+
+        @media only screen and (min-width:411px) and (max-width: 823px) {
+
+          h1{
+            color:red;
+          }
+          section.welcome-wrap-left{
+            margin-left: 0px;
+            margin-top: 450px;
+            height: auto;
+    
+          }
+          figure.menu-fig{
+            margin: 25px;
+          }
+          span.social-media-icons a i{
+            margin: 0px;
+          }
+  
+        }      
+
+     
+   

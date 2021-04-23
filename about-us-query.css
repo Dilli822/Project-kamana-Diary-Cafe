@@ -1,0 +1,29 @@
+@media only screen and (max-width: 800px){
+/***P CLASS CONTENT PARA***/
+p.content-para{
+    font-size: 17px;
+    padding: 0px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+h2{
+    font-size: 12px;
+    width: 100%;
+}
+section.left-content{
+    max-width: 100%;
+    padding: 10px;
+    margin: 5px;
+}
+img.mid-img{
+    margin-left: 0rem;
+}
+img.right-img,
+img.right-img2,
+img.right-img3{
+    margin: 0px;
+    padding: 10px;
+    width: 150px;
+}
+
+}

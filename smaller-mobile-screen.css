@@ -1,0 +1,278 @@
+@media only screen and (max-width: 600px){
+/****HEAD LOGO*****/
+.logo-head{
+    width: 130px;
+    margin-left: 0px;
+    margin-top: -25px;
+  }
+
+ 
+   /**=====BANNER--WITH --BG--IMAGES AND TEXT--*/
+  div.banner{
+    margin-top: 0px;
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url("kamana\ banner.jpg");
+  }
+  h1{
+    padding-top: 145px;
+    font-size: 2rem;
+    color:rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.514);
+  }
+
+  h4,
+  p.menu-quotes{
+  margin: 10px 0px;
+  }
+
+  aside.banner-brief{
+    font-size: 1.1rem;
+    background-color: rgba(0, 0, 0, 0.514);
+  }
+  section.hr-line{
+    border: 2px solid rgb(255, 0, 0);
+    width: 5%;
+    margin-left: 50px;
+
+  }
+  button.btn-about-us{
+    width:auto;
+  }
+/**====WELCOME==PART==STARTS==WITH=PICS***/
+div.welcome-part{
+  height: auto;
+}
+figure.menu-fig{
+  margin-top: -110px;
+}
+section.welcome-wrap-left{
+  margin-top: 55px;
+  margin-left: 280px;
+  width: 450px;
+  font-weight: bold;
+  height: 53vh;
+}
+
+img.wrap-img-mid{
+  max-width: 350px;
+  margin: 5px 15px;
+  height: 40vh;
+}
+
+section.welcome-wrap-right{
+  background-image: url("trainee.jpg");
+  background-size: 100% 100%;
+  margin: 5px 5px;
+  max-width: 200px;
+  color:white;
+  height: 40vh;
+}
+
+/**FOOD-MENU-SECTION**/
+/*---**----FOOD-MENU-SECTION---*-*-**/
+div.menu-foods-wrap{
+  background-color: white;
+}
+
+/***MENU FOODS SECTION PARAGRAPHS***/
+h6{
+  text-align: center;
+  font-size: 1.45rem;
+}
+p.foods-specials-para{
+  text-align: center;
+  color:white;
+}
+aside.price-tag{
+  text-align: center;
+}
+
+
+aside.wednesday,
+h2{
+  margin-left: 35px;
+  font-family: lobster;
+  font-weight: lighter;
+}
+p.welcome-para,
+P.welcome-para2{
+  padding: 0px 35px;
+}
+
+/***OVAL--IMAGE****/
+img.oval{
+  width: 135px;
+  height:135px;
+  border-radius: 50%;
+  left: 20%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  50% {
+    left: 60%;
+
+  }
+}
+/**HEADER--ON---WELCOME-WRAPER--**/
+h3{
+  font-size: 1.2rem;
+  font-family: cursive;
+  margin-top: 8.2rem;
+  margin-left: 15px;
+  opacity: 0.9;
+  
+}
+/**ASIDE--ON-WELCOME-WRAPPER**/
+aside.rountine-time{
+  font-size: 0.5rem;
+  margin-left: 15px;
+  opacity: 0.95;
+  
+}
+
+/**FOR DICOVER BUTTON**/
+div.btn{
+  background-color:white;
+}
+/***CLIENT'S REVIEW PART***/
+div.review-part{
+  background-image: none;
+  margin-top: 35px;
+}
+h5{
+  text-align: center;
+}
+
+
+/***PARA--FOR--CUSTOMER-REVIEWS-LINES***/
+P.review-para{
+  margin-bottom: 20px;
+  padding: 0px 15px;
+  font-size: 0.85rem;
+
+  
+}
+p.happy-hours-para{
+  text-align: center;
+  font-weight: bold;
+}
+/***IMAGE OVAL**/
+img.oval{
+  margin-left: 0px;
+}
+
+aside.customer-name{
+  text-align: center;
+}
+/**SOCIAL-MEDIA-ICONS***/
+span.social-media-icons a{
+  padding: 0px 5px;
+  margin: 0px 10px;
+}
+
+/*SECTION FOR RIGHT PHOTO FEATURE***/
+section.feature-right-photo{
+  margin: 0px;
+  padding: 6px;
+}
+/**FOOTER--WITH--BG--COLOR***/
+div.footer-bg{
+  margin-top: 25px;
+}
+ /**KNOW==BTN**/
+
+ button.btn-about-us{
+ margin-left: 20px;
+ }
+
+ aside.copyright{
+  font-size: 0.6rem;
+}
+.topnav a,
+.topnav a:hover,
+span.social-media-icons a i:hover{
+  border-bottom: none;
+  transform: none;
+}
+}
+
+
+@media only screen and (max-width: 800px){
+  section.hr-line{
+   display: none;
+
+  }
+    
+  .logo-head{
+    margin-left: 50px;
+  }
+  
+  .topnav a,
+  .topnav a:hover,
+  span.social-media-icons a i:hover{
+    border-bottom: none;
+    transform: none;
+  }
+   /**=====BANNER--WITH --BG--IMAGES AND TEXT--*/
+   div.banner{
+    margin-top: -20px;
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url("kamana\ banner.jpg");
+  }
+
+  .topnav {
+    position: static;
+    overflow: hidden;
+    background-color: white;
+    height: 100%;
+    color:black;
+  }
+  .topnav a{
+    color: black;
+    opacity: 1;
+  }
+  .topnav .icon {
+    color: rgb(252, 73, 8);
+    font-size: 1.8rem;
+    margin-top: 10px;
+  }
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  
+  }
+    .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 812px){
+ .topnav{
+   background-color: white;
+   height: auto;
+ }
+ .topnav .icon{
+  color: rgb(252, 73, 8);
+  font-size: 1.8rem;
+  margin-top: 10px;
+ }
+}
+ 

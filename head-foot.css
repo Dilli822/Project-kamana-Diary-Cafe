@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/*****GOOGLE--FONTS--UBUNTU*****/
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+input,textarea,button{
+  outline: none;
+}
+
+/***FOR ALL IMAGES**/
+img{
+  max-width: 100%;
+}
+
+/**=====HEADINGS STARTS=====**/
+/****HEAD LOGO*****/
+.logo-head{
+  width: 180px;
+  margin-left: 150px;
+  margin-top: -50px;
+}
+
+.topnav {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.699);
+  height: 10vh;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  margin: 25px 15px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  -webkit-transition: border-bottom 0.2s;
+}
+
+.topnav a:hover {
+  border-bottom: 2px solid red;
+}
+
+.topnav a.active {
+  background-color: #ff3c00;
+  color: white;
+  border-radius: 50px;
+}
+
+.topnav .icon {
+  display: none;
+}
+/**FOOTER--WITH--BG--COLOR***/
+ div.footer-bg{
+  background-image: url("");
+  background-color: #000000;
+  background-size: 100% 100%;
+  color:rgb(255, 254, 254);
+  padding: 15px;
+}
+
+i.fa-phone{
+display: flex;
+justify-content: center;
+font-size: 3rem;
+color:rgba(255, 17, 0, 0.849)
+}
+
+ h5{
+ font-size: 2rem;
+  text-align: center;
+  margin: 0px;
+  font-family: lobster;
+  font-weight: lighter;
+}
+aside.phone-num{
+  text-align: center;
+  font-weight: bolder;
+
+}
+aside.copyright{
+    font-size: 0.75rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px){
+.topnav {
+  position: static;
+  overflow: visible;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+}
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+  float: left;
+  display: block;
+}
+}
+
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav.responsive a {
+  float: none;
+  display: block;
+  text-align: left;
+}
+}
+ 
+
+
+
+
+
+
+
+
+
+

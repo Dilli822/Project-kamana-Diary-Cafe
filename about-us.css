@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/*****GOOGLE--FONTS--UBUNTU*****/
+*{
+   
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+div.head-banner{
+    background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.6435-9/135552273_1563527890502722_146603001472160336_n.jpg?_nc_cat=110&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=sBMwYqmahvsAX_AeUkb&_nc_ht=scontent.fbir2-1.fna&oh=eec9861615cf7a8e22ddccdc3633c9e9&oe=60A77A48");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+}
+
+
+h1{
+    color:rgb(255, 255, 255);
+    font-size: 8rem;
+    text-align: left;
+    padding: 8rem 5rem;
+    font-family: lobster;
+    font-weight: lighter;
+}
+
+
+/*-------**--------------FOOD-MENU-SECTION------*-*-**/
+div.menu-foods-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 150px;
+    background-image: url("background-image.jpeg");
+  }
+
+
+  /*------DIV--BTN---***/
+div.btn{
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    padding:  45px 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transition: all 25s ease-in-out 400ms;
+  }
+  
+  /**BUTTON--FOR--DISCOVER-ENTIRE--**/
+  button.btn-discover{
+    border-radius: 25px;
+    padding: 13px;
+    font-size: 1.3rem;
+    border: 0px solid;
+    background-color: #ff0000;
+    color:rgba(255, 255, 255, 0.904);
+    cursor: pointer;
+  
+  }
+  button.btn-discover:hover{
+    background-color: #ff1010f5;
+  }
+  
+/**CONTENT--PART**/
+div.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+/**CONTENT HEADER2***/
+h2{
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/***P CLASS CONTENT PARA***/
+p.content-para{
+    font-size: 17px;
+    padding: 25px 0px 0px 0px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+/**ASIDE UNQIUE R**/
+aside.unique-R{
+    color:Red;
+    font-size: 2rem;
+}
+p.unique-para{
+    font-size: 17px;
+    padding: 25px 0px 0px 0px;
+    font-weight: bold;
+    word-spacing: 5px;
+    color:black;
+}
+
+section.left-content{
+    max-width: 45vw;
+    padding: 80px;
+    margin: 55px 50px;
+}
+
+
+section.right-content{
+    display: flex;
+    flex-wrap: wrap;
+    border:px solid;
+
+}
+
+
+/**IMAGE RIGHT RIGHT**/
+img.right-img{
+    margin: 80px 25px;
+    width: 20vw;
+    border-radius: 25px;
+    height: 70vh;
+}
+
+/***IMAGE RIGHT TWO**/
+img.right-img2{
+    margin: 80px 5px 0px 10px;
+    width: 15vw;
+    height: 34vh;
+    border-radius: 25px;
+}
+
+/**IMAGE RIGHT THREE**/
+img.right-img3{
+    margin: 25px 15px 0px 10px;
+    width: 15vw;
+    height: 34vh;
+    border-radius: 25px;
+}
+
+div.team-wrapper,
+h3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    font-size: 4rem;
+    padding: 25px;
+    font-weight: lighter;
+    font-family: lobster;
+}
+ 
+
+div.team-wrap1{
+    background-image: url("");
+    width: 25vw;
+    height: 70vh;
+    border: 2px solid white;
+    object-fit: cover;
+    background-size: 100% 100%;
+}
+div.team-wrap2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35vw;
+    height: 50vh;
+    border: 2px solid white;
+}
+
+
+div.about-us-feature-part{
+    background-color: rgb(197, 197, 197);
+    color:rgb(7, 7, 7);
+    font-size: 0.85rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px;
+}
+
+/**SPAN--ICONS***/
+h4{
+    font-weight: lighter;
+    font-family: lobster;
+    font-size: 4rem;
+}
+span.icons{
+    font-size: 1rem;
+    padding-left: 30px;
+}
+span.icons i{
+    margin: 20px 0px;
+    font-size: 1.5rem;
+    color:orangered;
+    padding-left: 100px;
+}
+
+/**ABOUT US REVIEW DEMO**/
+
+/**MID-FIGURE--WITH REVIEW***/
+img.mid-img{
+    width: 150px;
+}
+figcaption{
+    text-align: center;
+    margin-top: -60px;
+    margin-left: 18rem;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+p.breif{
+    font-size: 2rem;
+    text-align: center;
+    padding: 25px;
+    font-family: dancing script;
+    font-weight: lighter;
+    color:rgba(141, 110, 110, 0.918);
+  }
+
+ 

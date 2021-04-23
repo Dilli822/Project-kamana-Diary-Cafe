@@ -1,0 +1,90 @@
+
+
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: 3rem;
+        padding: 150px 0px 10px 10px;
+    }
+    div.container-location-hours,
+    div.contact-enquiry-container{
+        justify-content:flex-start;
+        padding: 0px;
+        height: auto;
+    }
+    section.location iframe{
+        max-width: 100%;
+       margin-left: 0px;
+    }
+    img.mySlides{
+        max-width: 100%;
+    }
+
+  
+    
+}
+@media only screen and (max-width: 568px){
+    h1{
+        font-size: 3rem;
+        padding: 50px 0px 10px 10px;
+    }
+    h6 a{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 812px) and (orientation: landscape){
+    section.location iframe{
+        height:auto;
+        max-width: 100%;
+    }
+    .topnav {
+        position: static;
+        overflow: visible;
+        background-color: rgb(255, 255, 255);
+        height: auto;
+        
+      }
+      .topnav a:not(:first-child) {display: none;}
+      .topnav a.icon {
+        float: right;
+        display: block;
+        color:orangered;
+      }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      color: black;
+    }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 900px){
+    h1{
+        color:red;
+    }
+    div.container-location-hours,
+    div.contact-enquiry-container{
+        justify-content: center;
+        padding: 30px;
+        height: auto;
+    }
+    section.location iframe{
+        max-width: 600px;
+        height: 450px;
+    }
+    img.mySlides{
+        margin: 0px 35px;
+        max-width: 600px;
+    }
+    section.right-contact-box{
+        margin-left: 300px;
+    }
+    
+}
+

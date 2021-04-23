@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/*****GOOGLE--FONTS--UBUNTU*****/
+body{
+    font-family: ubuntu;
+    font-size: 1.5rem;
+}  
+
+input,textarea,button{
+  outline: none;
+}
+
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/****HEAD LOGO*****/
+.logo-head{
+    width: 180px;
+    margin-left: 150px;
+    margin-top: -50px;
+  }
+  
+  .topnav {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.699);
+    height: 10vh;
+  }
+  
+  .topnav a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin: 25px 15px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    -webkit-transition: border-bottom 0.2s;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 2px solid red;
+  }
+  
+  .topnav a.active {
+    background-color: #ff3c00;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 800px){
+    .logo-head{
+        width: 180px;
+        margin-left: 10px;
+        margin-top: -50px;
+      }
+    .topnav {
+      position: static;
+      overflow: visible;
+      background-color: rgb(255, 255, 255);
+      height: auto;
+      
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      color:orangered;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+      color: black;
+    }
+  }
+
+
+
+  /***BANNER--PART --STARTS***/
+  div.banner{
+      background-image: url("contact-banne2r.jpg");
+      background-repeat: no-repeat;
+      height: 90vh;
+      object-fit: center;
+  }
+
+  h1{
+    font-family: lobster;
+    font-weight: lighter;
+    font-size: 7rem;
+    color:white;
+    padding: 250px 0px 30px 50px;
+  }
+
+ h6 a{
+    font-size: 2.5rem;
+    color:white;
+    text-decoration: none;
+    margin-top: 350px;
+    margin-left: 50px;
+ 
+  }
+  h6 a:hover{
+    text-decoration: underline;
+  }
+  
+
+
+  /****GOOGLE-MAPS-LOCATION WITH HOURS***/
+  div.container-location-hours,
+  div.contact-enquiry-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 25px;
+  }
+
+
+  /**SECTION--LOCATION--IFRAME--GOOGLE-MAPS***/
+  section.location{
+      margin-left: 10px;
+  }
+/**==========SLIDESHOW--PART======**/
+div.Slideshow{
+    padding: 0px;
+    width: 100%;
+    border: 2px solid red;
+}
+  /**CONTACT --AND---ENQUIRY--FORM-STARTS***/
+    div.contact-enquiry-container{
+    background-color: rgba(222, 184, 135, 0.24);
+   }
+      /****GOOGLE-MAPS-MARKER***/
+  i.fa-map-marker{
+    font-size: 2.5rem;
+    color:rgba(255, 68, 0, 0.952); 
+    cursor: pointer;
+    margin: 0px 10px;
+    text-decoration: underline;
+   }
+   h2,h3{
+    font-size: 2rem;
+    margin: 150px 0px 15px 15px;
+   }
+
+   /**SOCIAL-MEDIA-ICONS**/
+   section.social-media-icons span i{
+       cursor: pointer;
+       text-align: center;
+       margin: 5px 10px;
+       font-size: 2rem;
+       color:rgba(255, 255, 255, 0.925);
+       background-color: rgb(240, 11, 11);
+       border-radius: 50px;
+       padding: 10px;
+   }
+   section.social-media-icons span i:hover{
+       background-color: rgb(0, 0, 0);
+   }
+
+   /****FORM RIGHT CONTACT BOX***/
+   section.right-contact-box{
+    background-color: rgb(255, 255, 255);
+    box-shadow: white;
+    padding: 30px 80px 20px 50px;
+   }
+
+   h4{
+     margin-left: 15px;
+     font-size: 2rem;
+  
+   }
+   aside.brief{
+       font-size: 1rem ;
+       font-weight: bold;
+       margin-left: 15px;
+       margin-bottom: 20px;
+   }
+
+   /***INPUT CSS**/
+   input,
+   textarea{
+     margin: 20px 15px;
+     padding: 15px;
+     width: 100%;
+     font-size: 14px;
+     background-color: rgba(241, 241, 241, 0.747);
+     border: 1px solid rgb(173, 173, 173);
+    
+   }
+   input::placeholder,
+   textarea::placeholder{
+     font-family: ubuntu;
+     font-weight: bold;
+
+   }
+ 
+   /***SEND-BUTTON***/
+   button.send-btn{
+    font-size: 1rem;
+    background-color: #ff3c00;
+    color: white;
+    border-radius: 50px;
+    padding: 15px;
+    border: 1px solid orangered;
+    margin-left: 15px;
+    width: auto;
+    cursor: pointer;
+   
+   }
+   button.send-btn:hover{
+     background-color: rgb(247, 66, 0);
+   }
+
+
+   /**FOOTER--WITH--BG--COLOR***/
+   div.footer-bg{
+    background-image: url("");
+    background-color: #000000;
+    background-size: 100% 100%;
+    color:rgb(255, 254, 254);
+    padding: 15px;
+  }
+  
+  i.fa-phone{
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color:rgba(255, 17, 0, 0.849)
+  }
+  h5{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+    font-family: lobster;
+  }
+  aside.phone-num{
+    text-align: center;
+    font-weight: bolder;
+  
+  }
+  aside.copyright{
+    text-align: center;
+    font-size: 0.85rem;
+  }

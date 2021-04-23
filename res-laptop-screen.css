@@ -1,0 +1,196 @@
+
+
+ @media only screen  and (max-width:1025px) and (min-width: 768px){ 
+  div.banner{
+    height: 60vh;
+    padding-top: 60px;
+  }  
+
+  h1{
+       padding-top: 200px;
+       font-size: 2.5rem;
+        background-color: rgba(59, 56, 56, 0.336);
+        color: red;
+     }
+
+     .logo-head{
+       margin-left: 30px;
+     }
+
+ /**====WELCOME==PART==STARTS==WITH=PICS***/
+ div.welcome-part{
+  height: auto;
+}
+section.welcome-wrap-left{
+    margin-left: 0px;
+    height: auto;
+}
+
+img.wrap-img-mid{
+  height: 50vh;
+  max-width: 280px;
+}
+section.welcome-wrap-right{
+  height: 50vh;
+  max-width: 270px;
+  margin-left: 0px;
+}
+span.social-media-icons a i{
+margin: 15px 25px;
+  
+}
+}
+
+
+
+
+ @media screen and (max-width:1366px) and (min-width: 1024px){
+  div.banner{
+    height: 60vh;
+    padding-top: 250px;
+  }  
+  
+  h1{
+      font-size: 3rem;
+      color:green;
+  }
+
+  section.hr-line{
+      border-bottom: 2px solid orangered;
+      width: 10%;
+      margin-left: 440px;
+    
+   } 
+
+   /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(0, 0, 0, 0.514);
+  overflow: hidden;
+  position: fixed;
+  color:white;
+  width: 100%;
+  height: 10vh;
+}
+
+
+
+   .topnav a{
+     font-size: 1.2rem;
+     margin: 25px 10px;
+   }
+   .topnav a.active {
+     margin: 20px 10px;
+   }
+
+/**====WELCOME==PART==STARTS==WITH=PICS***/
+div.welcome-part{
+ height: auto;
+
+}
+section.welcome-wrap-left{
+   margin-left: 200px;
+   height: auto;
+}
+section.welcome-wrap-right{
+ height: auto;
+}
+img.wrap-img-mid{
+ height: auto;
+ max-width: 330px;
+}
+
+
+/***OVAL--IMAGE****/
+h5{
+  text-align: center;
+}
+
+/***PARA--FOR--CUSTOMER-REVIEWS-LINES***/
+P.review-para{
+  font-weight: 2rem;
+}
+
+aside.customer-name{
+  margin-top: 0px;
+  padding-left: 15px;
+}
+
+span.social-media-icons a i{
+  font-size: 3rem;
+  margin: 0px 15px;
+ 
+}
+
+
+
+/**FOOTER--WITH--BG--COLOR***/
+div.footer-bg{
+  margin-top: 25px;
+}
+ /**KNOW==BTN**/
+
+ button.btn-about-us{
+ margin-left: 20px;
+ }
+
+ aside.copyright{
+  font-size: 0.6rem;
+}
+}
+
+@media screen and (max-width: 1440px) and (min-width: 900px){
+  div.banner{
+    height: 100vh;
+    padding-top: 60px;
+  }  
+
+  h1{
+       padding-top: 200px;
+       font-size: 2.5rem;
+        background-color: rgba(59, 56, 56, 0.336);
+        color: red;
+     }
+
+     .logo-head{
+       margin-left: 30px;
+     }
+
+ /**====WELCOME==PART==STARTS==WITH=PICS***/
+ div.welcome-part{
+  height: auto;
+}
+section.welcome-wrap-left{
+    margin-left: 300px;
+    height: auto;
+    max-width: 200px;
+}
+
+img.wrap-img-mid{
+  height: 60vh;
+  max-width: 350px;
+}
+section.welcome-wrap-right{
+  height: auto;
+  max-width: 350px;
+}
+
+button.btn-about-us{
+  width:auto;
+}
+}
+@media screen and (max-width:1920px) and (min-width: 1367px){
+  .topnav{
+    height: 12vh;
+  }
+  section.welcome-wrap-left{
+    margin-left: 280px;
+    height: auto;
+    max-width: 380px;
+}
+button.btn-about-us{
+  width:auto;
+}
+}
+
+
+
