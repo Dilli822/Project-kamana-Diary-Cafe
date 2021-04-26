@@ -105,8 +105,8 @@ input,textarea,button{
   }
 
   h1{
-    font-family: lobster;
     font-weight: lighter;
+    font-family: dancing script;
     font-size: 7rem;
     color:white;
     padding: 250px 0px 30px 50px;
@@ -118,6 +118,8 @@ input,textarea,button{
     text-decoration: none;
     margin-top: 350px;
     margin-left: 50px;
+    font-weight: lighter;
+    font-family: dancing script;
  
   }
   h6 a:hover{
