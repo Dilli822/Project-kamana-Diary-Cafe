@@ -92,6 +92,34 @@ img{
     text-align: left;
   }
 }
+/***LOWER-HEAING--IWTH-VIDEO**/
+div.lower-heading{
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);  
+}
+
+/***VIDEO PART***/
+
+#myVideo {
+  position: absolute;
+  padding: 30px 120px;
+  object-fit: cover;
+  height: 60vh;
+}
+/***CONTENT--PART--***/
+section.content{
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+  margin-top: -25rem;
+}
+
 
 /**MENU-BANNER**/
 div.banner{
@@ -115,20 +143,19 @@ div.menu-wrapper1{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 2px solid black;
+  border: px solid black;
   background-color:rgba(255, 255, 255, 0.562);
 }
 
 /***MENU WRAP1**/
-section.menu-wrap1
-{
+section.menu-wrap1{
   width: 30vw;
-  border: 3px solid rgb(0, 255, 98);
+  border: px solid rgb(0, 255, 98);
 }
 section.menu-wrap2{
   margin-left: 50px;
   width: 40vw;
-  border: 3px solid rgb(0, 0, 0);
+  border: px solid rgb(0, 0, 0);
 }
 
 /**MENU ITEM PIC**/
@@ -148,7 +175,7 @@ section.menu-wrapp{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border: 2px solid red;
+  border: px solid red;
 }
 /**HEADS AND SUB-HEADS**/
 h6{
@@ -158,18 +185,28 @@ h6{
 /***PARA OF MENU-ITEMS***/
 p.menu-item-para{
   font-weight: 500;
-  font-size: 1.3rem;
-  border: 2px solid green;
+  font-size: 1.2rem;
+  border: px solid green;
   max-width: 600px;
+  font-family: sans-serif;
 }
 
 /**MENU-LISTS**/
+div.price-only-last{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 30px;
+  border: px solid red;
+  height: 50px;
+}
+
 div.price-only,
 aside.price-tag{
   font-weight: bold;
   margin: 50px 2px;
   font-size: 2rem;
-  border: 2px solid red;
+  border: px solid red;
 }
 
 h2{
@@ -185,7 +222,6 @@ div.price-only2{
   width: 100px;
 }
   
-
 
 /**MENU--WRAPPER2**/
 div.menu-wrapper2{
@@ -203,6 +239,12 @@ section.menu-wrap-second{
   border-radius: 50px;
 }
 
+h5{
+  font-family: lobster;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
 /***MENU WRAP1**/
 section.menu-wrap-img
 {
@@ -217,38 +259,65 @@ section.menu-wrap2{
   border: px solid rgb(0, 255, 98);
 }
 
+/***CHICKEN GRILLED PART SECOND MENU-ITEM**/
 div.second-container,
 div.third-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 50px;
-}
-section.container-left{
-  margin-right: 150px;
-  border: 2px solid rgb(218, 191, 191);
+  margin-top: 80px;
 }
 
-section.container3-left{
-  margin-left: 150px;
-  border: 2px solid rgb(0, 255, 76);
+/**GRILLED CHICKEN CONTAINER LEFT PART**/
+section.container-left{
+  padding-left: 30px;
+  margin-right: 150px;
+  border: px solid rgb(218, 191, 191);
 }
+
+
+/***CAPCUINNCO COFFEE CONTAINER PART**/
+section.container3-left{
+  padding: 25px;
+  margin-left: 150px;
+  border: px solid rgb(0, 255, 76);
+}
+/***IMAGES IN CONTAINER-3 RIGHT**/
+section.container3-right{
+  margin-left: 35px;
+}
+/***INNERCONTAINER***/
 
 section.inner-container{
   display: flex;
   justify-content: flex-start;
-  border: 2px solid red;
+  border: px solid red;
 }
+
+/***CHICKEN GRILL INNER PARARGRAPHS***/
 p.inner-para{
-  border: 2px solid red;
-  font-size: 1.25rem;
+  font-family: sans-serif;
+  border: px solid red;
   max-width: 500px;
+  font-size: 1.2rem;
 
 }
-aside.price{
-  border: 5px solid;
+/**ASIDE PRICE TAG **/
+aside.price,
+aside.price-last{
+  border: px solid;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0px 60px;
 }
 
+/**FIGURE BOX LAST COFFE IMAGE**/
+img.menu-pic{
+  border: px solid red;
+  padding-left: 0px;
+}
+/**BOX SHADOWS FOR FIGURE***/
 section.container-right,
 section.container3-right{
   width: 30vw;
@@ -269,7 +338,9 @@ div.footer-bg{
   font-size: 3rem;
   color:rgba(255, 17, 0, 0.849)
   }
-  h5{
+
+
+  h4{
     font-family: lobster;
     text-align: center;
     font-size: 2rem;
