@@ -2,7 +2,7 @@
     @media screen and (max-width:1366px) and (min-width: 1024px){
    /* Add a black background color to the top navigation */
    .topnav {
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgb(0, 0, 0);
     overflow: hidden;
     position: fixed;
     color:white;

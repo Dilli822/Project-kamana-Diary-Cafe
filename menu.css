@@ -33,7 +33,7 @@ img{
   position: fixed;
   width: 100%;
   overflow: hidden;
-  background-color: rgba(51, 51, 51, 0.699);
+  background-color: rgb(0, 0, 0);
   height: 10vh;
 }
 
@@ -92,33 +92,6 @@ img{
     text-align: left;
   }
 }
-/***LOWER-HEAING--IWTH-VIDEO**/
-div.lower-heading{
-  display: flex;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.5);  
-}
-
-/***VIDEO PART***/
-
-#myVideo {
-  position: absolute;
-  padding: 30px 120px;
-  object-fit: cover;
-  height: 60vh;
-}
-/***CONTENT--PART--***/
-section.content{
-    position: absolute;
-    bottom: 0;
-    color: #f1f1f1;
-    width: 100%;
-}
-h1{
-  text-align: center;
-  font-size: 70px;
-  margin-top: -25rem;
-}
 
 
 /**MENU-BANNER**/
@@ -161,9 +134,11 @@ section.menu-wrap2{
 /**MENU ITEM PIC**/
 img.menu-pic{
   margin-top: 100px;
-  box-shadow: 60px -16px teal;
+  box-shadow: 60px -16px orangered;
 }
-
+figure.fig-right{
+  box-shadow: 60px -16px orangered;
+}
 h3{
   font-family: lobster;
   font-weight: lighter;
@@ -321,7 +296,7 @@ img.menu-pic{
 section.container-right,
 section.container3-right{
   width: 30vw;
-  box-shadow: 60px -16px teal;
+  box-shadow: 60px -16px rgb(153, 13, 13);
 }
 /**FOOTER--WITH--BG--COLOR***/
 div.footer-bg{
@@ -356,3 +331,5 @@ div.footer-bg{
     text-align: center;
     font-size: 0.85rem;
   }
+
+
