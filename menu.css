@@ -299,6 +299,17 @@ section.container3-right{
   width: 30vw;
   box-shadow: 60px -16px rgb(153, 13, 13);
 }
+
+/***MENU-BOTTOM-WRAPPER**/
+div.menu-bottom-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+/**SECTION MENU LEFT RIGHT WRAP**/
+section.menu-wrap-left{
+  max-width: 500px;
+}
 /**FOOTER--WITH--BG--COLOR***/
 div.footer-bg{
     background-image: url("");
