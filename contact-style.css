@@ -31,6 +31,7 @@ input,textarea,button{
   }
   
   .topnav a {
+     font-weight: bold;
     float: right;
     display: block;
     color: #ffffff;

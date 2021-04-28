@@ -39,6 +39,7 @@ img{
 
 .topnav a {
   float: right;
+  font-weight: bold;
   display: block;
   color: #f2f2f2;
   text-align: center;
