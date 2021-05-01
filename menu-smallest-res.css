@@ -1,0 +1,340 @@
+
+@media only screen and (max-width: 568px){
+    div.banner{
+        height: auto;
+    }
+    h1{
+        font-weight: lighter;
+        font-size: 2rem;
+        padding: 8rem 0rem;
+    }
+
+    /***MENU WRAP1**/
+section.menu-wrap1{
+    width:auto;
+    margin-top: -5rem;
+    padding: 25px;
+  }
+
+  section.menu-wrapp{
+    display: flex;
+    flex-wrap: wrap;
+    border: px solid red;
+  }
+
+  h3{
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+
+  section.menu-wrap2{
+    padding: 10px;
+    margin-left: 0px;
+    width: auto;
+    max-width: auto;
+    border: px solid red;
+  }
+
+   /**HEADS AND SUB-HEADS**/
+   h6{
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+   /***PARA OF MENU-ITEMS***/
+   p.menu-item-para{
+    font-size: 1rem;
+    border: px solid green;
+    max-width:auto;
+  }
+
+
+
+    /**GRILLED CHICKEN CONTAINER LEFT PART**/
+    section.container-left{
+        padding-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        border: px solid rgb(218, 191, 191);
+      }
+      
+/**MENU ITEM PIC**/
+img.menu-pic{
+    border: px solid rgb(0, 255, 98);
+    margin-top: 10px;
+    box-shadow: 60px -16px orangered;
+  }
+  figure.fig-right{
+      margin-top: 15px;
+    border: px solid rgb(0, 255, 98);
+    width: auto;
+    box-shadow: 60px -16px orangered;
+  }
+  
+  /**MENU-LISTS**/
+  div.price-only-last{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: px solid red;
+    height: 50px;
+  }
+  
+  div.price-only,
+  aside.price-tag{
+    margin: 5px 2px;
+    font-size: 1rem;
+  }
+  
+  h2{
+    font-size: 1.2rem;
+  }
+  
+  
+  div.price-only2{
+    width: auto;
+  }
+    
+  h5{
+    font-family: lobster;
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+  
+  /***CHICKEN GRILLED PART SECOND MENU-ITEM**/
+  div.second-container,
+  div.third-container{
+    padding: 15px;
+    margin-top: 0px;
+    border: px solid red;
+  }
+
+  
+  /***CHICKEN GRILL INNER PARARGRAPHS***/
+  p.inner-para{
+    border: px solid red;
+    max-width: auto;
+    font-size: 1rem;
+  }
+
+  /***CAPCUINNCO COFFEE CONTAINER PART**/
+  section.container3-left{
+    padding: 2px;
+    margin-left: 0px;
+    border: px solid rgb(0, 255, 76);
+  }
+  /***IMAGES IN CONTAINER-3 RIGHT**/
+  section.container3-right{
+    margin-left: 5px;
+  }
+ 
+  /**ASIDE PRICE TAG **/
+  aside.price,
+  aside.price-last{
+    border: px solid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px 20px;
+  }
+  
+  /**FIGURE BOX LAST COFFE IMAGE**/
+  img.menu-pic{
+    border: px solid red;
+    padding-left: 0px;
+  }
+  /**BOX SHADOWS FOR FIGURE***/
+  section.container-right,
+  section.container3-right{
+    width: auto;
+    box-shadow: 60px -10px rgb(245, 78, 78);
+  }
+  
+  /***MENU-BOTTOM-WRAPPER**/
+  div.menu-bottom-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /**SECTION MENU LEFT RIGHT WRAP**/
+  section.menu-wrap-left{
+    max-width: auto;
+  }
+  h4,
+  aside.phone-num{
+      font-size: 1.5rem;
+  }
+  aside.copyright{
+      font-size: 0.65rem;
+  }
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 800px) and (orientation: portrait){
+    div.banner{
+        height: auto;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    h1{
+        font-weight: lighter;
+        font-size: 2rem;
+        padding: 8rem 0rem;
+    }
+
+    /***MENU WRAP1**/
+section.menu-wrap1{
+    width:auto;
+    padding: 25px;
+  }
+
+  section.menu-wrapp{
+    display: flex;
+    flex-wrap: wrap;
+    border: px solid red;
+  }
+
+  h3{
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+
+  section.menu-wrap2{
+    padding: 10px;
+    margin-left: 0px;
+    width: auto;
+    max-width: auto;
+    border: px solid red;
+  }
+
+   /**HEADS AND SUB-HEADS**/
+   h6{
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+   /***PARA OF MENU-ITEMS***/
+   p.menu-item-para{
+    font-size: 1rem;
+    border: px solid green;
+    max-width:auto;
+  }
+
+
+
+    /**GRILLED CHICKEN CONTAINER LEFT PART**/
+    section.container-left{
+        padding-left: 0px;
+        margin-right: 0px;
+        padding: 10px;
+        border: px solid rgb(218, 191, 191);
+      }
+      
+/**MENU ITEM PIC**/
+img.menu-pic{
+    border: px solid rgb(0, 255, 98);
+    margin-top: 10px;
+    box-shadow: 60px -16px orangered;
+  }
+  figure.fig-right{
+      margin-top: 15px;
+    border: px solid rgb(0, 255, 98);
+    width: auto;
+    box-shadow: 60px -16px orangered;
+  }
+  
+  /**MENU-LISTS**/
+  div.price-only-last{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 0px;
+    border: px solid red;
+    height: 50px;
+  }
+  
+  div.price-only,
+  aside.price-tag{
+    margin: 5px 2px;
+    font-size: 1rem;
+  }
+  
+  h2{
+    font-size: 1.2rem;
+  }
+  
+  
+  div.price-only2{
+    width: auto;
+  }
+    
+  h5{
+    font-family: lobster;
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+  
+  /***CHICKEN GRILLED PART SECOND MENU-ITEM**/
+  div.second-container,
+  div.third-container{
+    padding: 15px;
+    margin-top: 0px;
+    border: px solid red;
+  }
+
+  
+  /***CHICKEN GRILL INNER PARARGRAPHS***/
+  p.inner-para{
+    border: px solid red;
+    max-width: auto;
+    font-size: 1rem;
+  }
+
+  /***CAPCUINNCO COFFEE CONTAINER PART**/
+  section.container3-left{
+    padding: 2px;
+    margin-left: 0px;
+    border: px solid rgb(0, 255, 76);
+  }
+  /***IMAGES IN CONTAINER-3 RIGHT**/
+  section.container3-right{
+    margin-left: 5px;
+  }
+ 
+  /**ASIDE PRICE TAG **/
+  aside.price,
+  aside.price-last{
+    border: px solid;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0px 20px;
+  }
+  
+  /**FIGURE BOX LAST COFFE IMAGE**/
+  img.menu-pic{
+    border: px solid red;
+    padding-left: 0px;
+  }
+  /**BOX SHADOWS FOR FIGURE***/
+  section.container-right,
+  section.container3-right{
+    width: auto;
+    box-shadow: 60px -10px rgb(245, 78, 78);
+  }
+  
+  /***MENU-BOTTOM-WRAPPER**/
+  div.menu-bottom-wrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /**SECTION MENU LEFT RIGHT WRAP**/
+  section.menu-wrap-left{
+    max-width: auto;
+  }
+  h4,
+  aside.phone-num{
+      font-size: 1.5rem;
+  }
+  aside.copyright{
+      font-size: 0.65rem;
+  }
+}
