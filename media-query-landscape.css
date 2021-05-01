@@ -1,4 +1,53 @@
+/****ORIENTATION MEDIA QUERIES VARIOUS SCREEN SIZES *****/
+@media only screen and (max-width:1920px) and(min-width: 1080px) and (orientation: portrait){
+ 
+  h1{
+      margin-top: 0px;
+      padding-top: 0px;
+      font-size: 4rem;
+      color: teal;
+  }
+  .topnav{
+    height: 12vh;
+  }
+  section.hr-line{
+  display: none;
+  }
 
+  section.welcome-wrap-left{
+    margin-left: 350px;
+    max-width: 80%;
+  }
+
+  img.wrap-img-mid{
+    max-width: 450px;
+    height: 40vh;
+  }
+  section.welcome-wrap-right{
+    max-width: 350px;
+  }
+  div.sunday-feature{
+    flex-wrap: nowrap;
+   
+  }
+  /*SECTION FOR LEFT PHOTO FEATURE***/
+img.feature-left-photo{
+  max-width: 450px;
+}
+/*SECTION FOR RIGHT PHOTO FEATURE***/
+section.feature-right-photo{
+  margin-top: 35px;
+  margin-left: 30px;
+  max-width: 500px;
+}
+
+/***CLIENT'S REVIEW PART***/
+div.review-part{
+  flex-wrap: nowrap;
+}
+
+
+}
 
 /****ORIENTATION MEDIA QUERIES VARIOUS SCREEN SIZES *****/
 @media only screen and (max-width:1024px) and (orientation: landscape){
@@ -98,6 +147,7 @@
   h1{
     font-size: 3rem;
     color:red;
+    margin: 50px 0px;
   }
   div.banner{
     height: auto;
@@ -146,9 +196,9 @@
   
   @media screen and (max-width:812px) and (orientation: landscape){
   h1{
-    color: olivedrab;
+    color: rgb(170, 255, 0);
     font-size: 2rem;
-  
+    margin: 60px 0px;
   }
   
   .topnav {
@@ -209,7 +259,8 @@
   
   @media screen and (max-width: 736px) and (orientation: landscape){
   h1{
-    color: pink;
+    color: rgb(102, 255, 0);
+    margin: 20px 0px;
   }
   section.welcome-wrap-left{
     margin-top: 60px;
@@ -232,6 +283,7 @@
   @media screen and (max-width: 667px) and (orientation: landscape){
     h1{
       color: pink;
+      margin: 50px 0px;
     }
    
     section.welcome-wrap-left{
@@ -260,7 +312,8 @@
   
   @media screen and (max-width: 568px) and (orientation: landscape){
     h1{
-      color:black;
+      color:rgb(248, 248, 248);
+      margin: 80px 0px;
     }
     div.banner{
       height: 150vh;

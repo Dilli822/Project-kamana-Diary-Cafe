@@ -99,8 +99,8 @@ img{
 div.banner{
   background-image: url("https://cdn.pixabay.com/photo/2018/03/02/13/38/vegetables-3193196_960_720.jpg");
   background-repeat: no-repeat;
-  height: 90vh;
-  background-size: 100% 100%;
+  height: auto;
+  background-size: 100%;
 }
 
 h1{

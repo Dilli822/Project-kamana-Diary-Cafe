@@ -99,6 +99,7 @@ div.gallery-image-content{
   color: rgb(253, 253, 253);
   text-align: center;
   padding-top: 90px;
+  
 }
 
 
@@ -114,10 +115,16 @@ div.gallery-image-content{
   max-width: 25%;
   padding: 0 4px;
 }
+.row,
+.column{
+  margin-top: 5px;
+}
 
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
+
+.column img:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -136,6 +143,51 @@ div.gallery-image-content{
   }
 }
 
+/**
+.container {
+  position: relative;
+  width: 50%;
+}
+div.section-items{
+  border: 2px solid rgb(255, 6, 6);
+}
+
+.image {
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+  margin-top: 100px;
+  }
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text ,
+.text2{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}**/
 /**FOOTER--WITH--BG--COLOR***/
 div.footer-bg{
     background-image: url("");
@@ -152,8 +204,10 @@ div.footer-bg{
   color:rgba(255, 17, 0, 0.849)
   }
   h5{
+    font-family: lobster;
+    font-weight: lighter;
     text-align: center;
-    margin: 0px;
+    font-size: 3rem;
   }
   aside.phone-num{
     text-align: center;
