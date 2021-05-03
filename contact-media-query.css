@@ -88,3 +88,68 @@
     
 }
 
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+     /****GOOGLE-MAPS-LOCATION WITH HOURS***/
+  div.container-location-hours,
+  div.contact-enquiry-container{
+      justify-content: flex-start;
+      padding: 60px;
+  }
+  div.contact-enquiry-container{
+    background-color: rgba(222, 184, 135, 0.24);
+   }
+   div.Slideshow{
+    width: 40%;
+    border: 2px solid red;
+}
+       h2,h3{
+        font-size: 2rem;
+        margin: 50px 0px 15px 5px;
+       }
+
+    /****FORM RIGHT CONTACT BOX***/
+    section.right-contact-box{
+        margin: 50px 0px;
+        padding: 50px 60px 20px 30px;
+        border: px solid rgb(248, 15, 15);
+       }
+    
+}
+
+
+
+
+@media only screen and (max-width: 1366px) and (min-width: 1024px) and (orientation: landscape){
+    h1{
+        color:white;
+    }
+     /****FORM RIGHT CONTACT BOX***/
+     section.right-contact-box{
+        margin-top: 50px;
+        margin-left: 150px;
+        padding: 50px 60px 20px 40px;
+        border: px solid rgb(248, 15, 15);
+       }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
+    h1{
+        color:rgb(255, 11, 11);
+    }
+
+         /****GOOGLE-MAPS-LOCATION WITH HOURS***/
+  div.container-location-hours,
+  div.contact-enquiry-container{
+      justify-content: flex-start;
+      padding: 0px;
+  }
+     /****FORM RIGHT CONTACT BOX***/
+     section.right-contact-box{
+        margin-top: 50px;
+        margin-left: 0px;
+        padding: 50px 60px 20px 40px;
+        border: px solid rgb(248, 15, 15);
+       }
+}

@@ -104,11 +104,11 @@ div.banner{
 }
 
 h1{
-  font-size: 7rem;
-  font-weight: bold;
+  font-size: 6rem;
+  font-weight: lighter;
   font-family: dancing script;
   color:white;
-  padding: 15rem 5rem;
+  padding: 15rem 0rem;
 }
 
 
