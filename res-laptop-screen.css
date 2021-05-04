@@ -3,14 +3,14 @@
  @media only screen  and (max-width:1025px) and (min-width: 768px){ 
   div.banner{
     height: 60vh;
-    padding-top: 60px;
+    padding-top: 20px;
   }  
 
   h1{
-       padding-top: 200px;
-       font-size: 2.5rem;
-        background-color: rgba(59, 56, 56, 0.336);
-        color: red;
+       padding-top: 0px;
+       font-size: 3.5rem;
+        background-color: none;
+        color: rgb(255, 255, 255);
      }
 
      .logo-head{
@@ -53,6 +53,7 @@ margin: 15px 25px;
   h1{
       font-size: 3rem;
       color:green;
+      background-color: none;
   }
 
   section.hr-line{
@@ -130,7 +131,7 @@ div.footer-bg{
  /**KNOW==BTN**/
 
  button.btn-about-us{
- margin-left: 20px;
+ margin-left: 0px;
  }
 
  aside.copyright{
@@ -147,7 +148,7 @@ div.footer-bg{
   h1{
        padding-top: 200px;
        font-size: 2.5rem;
-        background-color: rgba(59, 56, 56, 0.336);
+        background-color: none;
         color: red;
      }
 
@@ -179,6 +180,10 @@ button.btn-about-us{
 }
 }
 @media screen and (max-width:1920px) and (min-width: 1367px){
+  h1{
+    background-color: none;
+  }
+
   .topnav{
     height: 12vh;
   }
@@ -192,5 +197,27 @@ button.btn-about-us{
 }
 }
 
+@media only screen  and (max-width:1920px) and (min-width: 1080px) and (orientation: portrait){ 
+  
+  h1{
+    padding-top: 0px;
+    font-size: 5rem;
+    color:rgb(0, 225, 255);
+}
+img.wrap-img-mid{
+  border: 2px solid red;
+  height: auto;
+}
+.topnav{
+  height: 5vh;
+}
+
+/*SECTION FOR LEFT PHOTO FEATURE***/
+img.feature-left-photo{
+max-width: 400px;
+border: 2px solid red;
+}
+
+}
 
 

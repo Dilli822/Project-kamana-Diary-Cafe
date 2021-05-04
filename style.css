@@ -314,7 +314,7 @@ div.menu-foods-wrap{
 /*----------------------FOOD-MENU-SECTION------**/
 section.menu-foods-wrap1{
   width: 500px;
-  height: 400px;
+  height: auto;
   border: px solid red;
   margin-top: -100px;
   color:white;
@@ -325,6 +325,7 @@ section.menu-foods-wrap1{
 h6{
   text-align: center;
   font-size: 1.5rem;
+  padding: 50px;
 }
 /****FOODS SPECIALS PARAGRAPHS**/
 p.foods-specials-para{

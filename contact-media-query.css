@@ -148,8 +148,8 @@
      /****FORM RIGHT CONTACT BOX***/
      section.right-contact-box{
         margin-top: 50px;
-        margin-left: 0px;
-        padding: 50px 60px 20px 40px;
+        margin-left: 30px;
+        padding: 10px 30px 20px 20px;
         border: px solid rgb(248, 15, 15);
        }
 }

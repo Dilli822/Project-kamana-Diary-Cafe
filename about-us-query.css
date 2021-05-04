@@ -1,19 +1,48 @@
 @media only screen and (max-width: 800px){
 /***P CLASS CONTENT PARA***/
+
+div.head-banner{
+    background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.6435-9/150199402_1592612570927587_2361433287663327203_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=8JZsOLkFhuIAX_kOh6X&_nc_ht=scontent.fbir2-1.fna&oh=f4adf1cf47e3fecc2c0006d55bd7408c&oe=60B0D77D");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
 p.content-para{
-    font-size: 17px;
+    font-size: 15px;
     padding: 0px;
     font-weight: bold;
     word-spacing: 5px;
 }
+h1{
+    font-size: 5rem;
+}
 h2{
-    font-size: 12px;
+    font-size: 1.85rem;
     width: 100%;
 }
 section.left-content{
     max-width: 100%;
-    padding: 10px;
-    margin: 5px;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+div.team-wrap1,
+div.team-wrap2{
+     width: auto;
+     padding: 10px;
+     border: none;
+  
+}
+
+/**SPAN--ICONS***/
+h4{
+    font-size: 2rem;
+}
+span.icons i{
+    font-size: 1.5rem;
+    padding-left: 20px;
 }
 img.mid-img{
     margin-left: 0rem;
@@ -22,8 +51,9 @@ img.right-img,
 img.right-img2,
 img.right-img3{
     margin: 0px;
-    padding: 10px;
-    width: 150px;
+    padding: 30px;
+    width: 100%;
+    height: auto;
 }
 
 }
