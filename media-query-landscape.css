@@ -1,62 +1,64 @@
-/****ORIENTATION MEDIA QUERIES VARIOUS SCREEN SIZES *****/
-@media only screen and (max-width:1920px) and(min-width: 1080px) and (orientation: portrait){
- 
-  h1{
-      margin-top: 0px;
-      padding-top: 0px;
-      font-size: 4rem;
-      color: teal;
-  }
-  .topnav{
-    height: 12vh;
-  }
-  section.hr-line{
-  display: none;
-  }
 
-  section.welcome-wrap-left{
-    margin-left: 350px;
-    max-width: 80%;
-  }
+@media only screen and (max-width:1366px)  and (orientation: landscape){
+div.banner{
+  height: 75vh;
+  padding-top: 250px;
+}  
 
-  img.wrap-img-mid{
-    max-width: 450px;
-    height: 40vh;
-  }
-  section.welcome-wrap-right{
-    max-width: 350px;
-  }
-  div.sunday-feature{
-    flex-wrap: nowrap;
-   
-  }
-  /*SECTION FOR LEFT PHOTO FEATURE***/
+h1{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 5rem;
+}
+section.hr-line{
+  margin-left: 640px;
+
+} 
+.topnav{
+ height: 15vh;
+}
+section.welcome-wrap-left{
+margin-left: 350px;
+max-width: 80%;
+}
+/**KNOW==BTN**/
+button.btn-about-us{
+margin: 35px -15px;
+ width: 40%;
+}
+img.wrap-img-mid{
+max-width: 450px;
+height: auto;
+}
+section.welcome-wrap-right{
+width: 450px;
+height: auto;
+}
+/*SECTION FOR LEFT PHOTO FEATURE***/
 img.feature-left-photo{
-  max-width: 450px;
+width: 550px;
+height: auto;
 }
-/*SECTION FOR RIGHT PHOTO FEATURE***/
-section.feature-right-photo{
-  margin-top: 35px;
-  margin-left: 30px;
-  max-width: 500px;
-}
-
 /***CLIENT'S REVIEW PART***/
 div.review-part{
-  flex-wrap: nowrap;
+flex-wrap: nowrap;
 }
 
+span.social-media-icons a i{
+font-size: 3rem;
+margin: 10px 25px 0px 25px;
+padding-top: 15px;
 
 }
 
+}
 /****ORIENTATION MEDIA QUERIES VARIOUS SCREEN SIZES *****/
 @media only screen and (max-width:1024px) and (orientation: landscape){
- 
     h1{
         margin-top: 0px;
         padding-top: 0px;
         font-size: 4rem;
-        color:rgb(0, 225, 255);
+        color:rgb(255, 255, 255);
     }
     .topnav{
       height: 12vh;
@@ -101,7 +103,7 @@ div.review-part{
         margin-top: 0px;
         padding-top: 0px;
         font-size: 5rem;
-        color:rgb(156, 226, 43);
+        color:rgb(255, 255, 255);
     }
     section.hr-line{
       margin-left: 640px;
@@ -121,14 +123,16 @@ div.review-part{
     }
    img.wrap-img-mid{
     max-width: 450px;
-    height: 60vh;
+    height: auto;
   }
   section.welcome-wrap-right{
     width: 450px;
+    height: auto;
   }
   /*SECTION FOR LEFT PHOTO FEATURE***/
   img.feature-left-photo{
     width: 550px;
+    height: auto;
   }
   /***CLIENT'S REVIEW PART***/
   div.review-part{
@@ -146,7 +150,7 @@ div.review-part{
   @media only screen and (max-width:800px)  and (orientation: landscape){
   h1{
     font-size: 3rem;
-    color:red;
+    color:rgb(255, 255, 255);
     margin: 50px 0px;
   }
   div.banner{
@@ -196,13 +200,13 @@ div.review-part{
   
   @media screen and (max-width:812px) and (orientation: landscape){
   h1{
-    color: rgb(170, 255, 0);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     margin: 60px 0px;
   }
   
   .topnav {
-    height: 25vh;
+    height: auto;
     position: static;
   }
   .topnav a:not(:first-child) {display: none;}
@@ -220,6 +224,7 @@ div.review-part{
     float: none;
     display: block;
     text-align: left;
+    color:black;
   }
   div.banner{
     height: 105vh;
@@ -259,7 +264,7 @@ div.review-part{
   
   @media screen and (max-width: 736px) and (orientation: landscape){
   h1{
-    color: rgb(102, 255, 0);
+    color: rgb(255, 255, 255);
     margin: 20px 0px;
   }
   section.welcome-wrap-left{
@@ -282,7 +287,7 @@ div.review-part{
   
   @media screen and (max-width: 667px) and (orientation: landscape){
     h1{
-      color: pink;
+      color: rgb(255, 255, 255);
       margin: 50px 0px;
     }
    
@@ -315,8 +320,11 @@ div.review-part{
       color:rgb(248, 248, 248);
       margin: 80px 0px;
     }
+   
     div.banner{
-      height: 150vh;
+      height: auto;
+      margin-top: 0px;
+      border: 2px solid rgb(224, 3, 3);
     }
     img.wrap-img-mid{
       height:80vh;
