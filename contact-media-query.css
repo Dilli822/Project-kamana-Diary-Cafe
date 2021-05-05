@@ -22,13 +22,43 @@
   
     
 }
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 568px) and (orientation: portrait){
+    div.banner{
+        background-size: 100% 100%;
+        height: 45vh;
+    }
     h1{
-        font-size: 3rem;
+        font-size: 2rem;
         padding: 50px 0px 10px 10px;
     }
     h6 a{
         font-size: 1rem;
+    }
+    section.location iframe{
+        padding: 10px;
+        height: 60vh;
+
+    }
+    
+   /***INPUT CSS**/
+   input,
+   textarea{
+     margin: 10px 10px;
+     padding: 15px;
+     width: 100%;
+    
+   }
+}
+
+@media only screen and (max-width: 568px) and (orientation: landscape){
+    div.banner{
+        background-size: 100% 100%;
+        height: 150vh;
+    }
+    section.location iframe{
+        padding: 15px;
+        height: 50vh;
+        max-width: 50vw;
     }
 }
 
@@ -65,8 +95,8 @@
 }
 
 @media only screen and (max-width: 1440px) and (min-width: 900px){
-    h1{
-        color:red;
+    .topnav {
+        height: 12vh;
     }
     div.container-location-hours,
     div.contact-enquiry-container{
@@ -75,12 +105,12 @@
         height: auto;
     }
     section.location iframe{
-        max-width: 600px;
+        max-width: 100%;
         height: 450px;
     }
     img.mySlides{
         margin: 0px 35px;
-        max-width: 600px;
+        max-width: 100%;
     }
     section.right-contact-box{
         margin-left: 300px;
@@ -88,16 +118,35 @@
     
 }
 
+@media only screen and (max-width: 900px){
+    h5{
+        text-align: center;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        font-family: lobster;
+      }
+      aside.phone-num{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 1rem;
+      
+      }
+      aside.copyright{
+        text-align: center;
+        font-size: 0.7rem;
+      }
+}
 
 @media only screen and (max-width: 1024px) and (min-width: 768px){
      /****GOOGLE-MAPS-LOCATION WITH HOURS***/
   div.container-location-hours,
   div.contact-enquiry-container{
       justify-content: flex-start;
-      padding: 60px;
+      padding: 0px;
   }
   div.contact-enquiry-container{
     background-color: rgba(222, 184, 135, 0.24);
+    padding: 35px;
    }
    div.Slideshow{
     width: 40%;
@@ -114,7 +163,8 @@
         padding: 50px 60px 20px 30px;
         border: px solid rgb(248, 15, 15);
        }
-    
+
+      
 }
 
 
@@ -123,6 +173,9 @@
 @media only screen and (max-width: 1366px) and (min-width: 1024px) and (orientation: landscape){
     h1{
         color:white;
+    }
+    .topnav {
+        height: 12vh;
     }
      /****FORM RIGHT CONTACT BOX***/
      section.right-contact-box{
@@ -135,10 +188,7 @@
 
 
 @media only screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
-    h1{
-        color:rgb(255, 11, 11);
-    }
-
+  
          /****GOOGLE-MAPS-LOCATION WITH HOURS***/
   div.container-location-hours,
   div.contact-enquiry-container{
@@ -152,4 +202,29 @@
         padding: 10px 30px 20px 20px;
         border: px solid rgb(248, 15, 15);
        }
+}
+@media only screen and (max-width: 1152px) and (min-width: 700px){
+    .topnav {
+        height: 15vh;
+    }
+}
+@media only screen and (max-width: 1920px) and (min-width: 1080px) and (orientation: portrait){
+    div.banner{
+        background-size: 100% 100%;
+        height: 40vh;
+    }
+    
+    /****GOOGLE-MAPS-LOCATION WITH HOURS***/
+div.container-location-hours,
+div.contact-enquiry-container{
+ justify-content: flex-start;
+ padding: 0px;
+}
+/****FORM RIGHT CONTACT BOX***/
+section.right-contact-box{
+   margin-top: 50px;
+   margin-left: 30px;
+   padding: 10px 30px 20px 20px;
+   border: px solid rgb(248, 15, 15);
+  }
 }
