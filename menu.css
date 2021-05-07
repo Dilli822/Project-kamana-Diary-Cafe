@@ -15,14 +15,14 @@ input,textarea,button{
   outline: none;
 }
 
-/***FOR ALL IMAGES**/
+/***------------------FOR ALL IMAGES-------------------**/
 img{
   max-width: 100%;
 }
-/**=====HEADINGS STARTS=====**/
+/**===--------==HEADINGS STARTS=--------====**/
 
 
-/****HEAD LOGO*****/
+/****------------HEAD LOGO*-----------------****/
 .logo-head{
   width: 180px;
   margin-left: 150px;
@@ -95,7 +95,7 @@ img{
 }
 
 
-/**MENU-BANNER**/
+/**-------------------MENU-BANNER----------------**/
 div.banner{
   background-image: url("https://cdn.pixabay.com/photo/2018/03/02/13/38/vegetables-3193196_960_720.jpg");
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ h1{
 }
 
 
-/**MENU--WRAPPER**/
+/*------------------*MENU--WRAPPER------------------**/
 div.menu-wrapper1{
   display: flex;
   flex-wrap: wrap;
@@ -121,7 +121,7 @@ div.menu-wrapper1{
   background-color:rgba(255, 255, 255, 0.562);
 }
 
-/***MENU WRAP1**/
+/***---------------------MENU WRAP1---------------**/
 section.menu-wrap1{
   width: 30vw;
   border: px solid rgb(0, 255, 98);
@@ -132,7 +132,7 @@ section.menu-wrap2{
   border: px solid rgb(0, 0, 0);
 }
 
-/**MENU ITEM PIC**/
+/**--------------MENU ITEM PIC----------------**/
 img.menu-pic{
   margin-top: 100px;
   box-shadow: 60px -16px orangered;
@@ -153,12 +153,12 @@ section.menu-wrapp{
   flex-wrap: wrap;
   border: px solid red;
 }
-/**HEADS AND SUB-HEADS**/
+/*---------------*HEADS AND SUB-HEADS---------------------**/
 h6{
   font-size: 2rem;
   margin-top: 30px;
 }
-/***PARA OF MENU-ITEMS***/
+/***------------------PARA OF MENU-ITEMS---------------***/
 p.menu-item-para{
   font-weight: 500;
   font-size: 1.2rem;
@@ -167,7 +167,7 @@ p.menu-item-para{
   font-family: sans-serif;
 }
 
-/**MENU-LISTS**/
+/**----------------------MENU-LISTS*---------------------------*/
 div.price-only-last{
   font-size: 2rem;
   font-weight: bold;
@@ -199,7 +199,7 @@ div.price-only2{
 }
   
 
-/**MENU--WRAPPER2**/
+/**--------------MENU--WRAPPER2*----------------*/
 div.menu-wrapper2{
   display: flex;
   flex-wrap: wrap;
@@ -208,7 +208,7 @@ div.menu-wrapper2{
   background-color:rgba(122, 119, 119, 0.562);
 }
 
-/***MENU WRAP1**/
+/***---------------------MENU WRAP1---------------**/
 section.menu-wrap-second{
   width: 40vw;
   border: 2px solid rgb(0, 255, 98);
@@ -221,7 +221,7 @@ h5{
   font-weight: lighter;
 }
 
-/***MENU WRAP1**/
+/**-------------------*MENU WRAP1-----------------------**/
 section.menu-wrap-img
 {
   width: 0vw;
@@ -235,7 +235,7 @@ section.menu-wrap2{
   border: px solid rgb(0, 255, 98);
 }
 
-/***CHICKEN GRILLED PART SECOND MENU-ITEM**/
+/***-----------------CHICKEN GRILLED PART SECOND MENU-ITEM------------**/
 div.second-container,
 div.third-container{
   display: flex;
@@ -245,7 +245,7 @@ div.third-container{
   margin-top: 80px;
 }
 
-/**GRILLED CHICKEN CONTAINER LEFT PART**/
+/**--------------------GRILLED CHICKEN CONTAINER LEFT PART-----------------**/
 section.container-left{
   padding-left: 30px;
   margin-right: 150px;
@@ -253,17 +253,17 @@ section.container-left{
 }
 
 
-/***CAPCUINNCO COFFEE CONTAINER PART**/
+/**----------------------*CAPCUINNCO COFFEE CONTAINER PART-------------**/
 section.container3-left{
   padding: 25px;
   margin-left: 150px;
   border: px solid rgb(0, 255, 76);
 }
-/***IMAGES IN CONTAINER-3 RIGHT**/
+/***---------------------IMAGES IN CONTAINER-3 RIGHT*-------------------*/
 section.container3-right{
   margin-left: 35px;
 }
-/***INNERCONTAINER***/
+/**-------------------*INNERCONTAINER*-------------------------**/
 
 section.inner-container{
   display: flex;
@@ -271,7 +271,7 @@ section.inner-container{
   border: px solid red;
 }
 
-/***CHICKEN GRILL INNER PARARGRAPHS***/
+/***--------------CHICKEN GRILL INNER PARARGRAPHS*-----------**/
 p.inner-para{
   font-family: sans-serif;
   border: px solid red;
@@ -279,7 +279,7 @@ p.inner-para{
   font-size: 1.2rem;
 
 }
-/**ASIDE PRICE TAG **/
+/**-----------------------ASIDE PRICE TAG -------------------**/
 aside.price,
 aside.price-last{
   border: px solid;
@@ -288,29 +288,29 @@ aside.price-last{
   margin: 0px 60px;
 }
 
-/**FIGURE BOX LAST COFFE IMAGE**/
+/**----------------------FIGURE BOX LAST COFFE IMAGE---------**/
 img.menu-pic{
   border: px solid red;
   padding-left: 0px;
 }
-/**BOX SHADOWS FOR FIGURE***/
+/**----------------BOX SHADOWS FOR FIGURE-----------------------***/
 section.container-right,
 section.container3-right{
   width: 30vw;
   box-shadow: 60px -16px rgb(153, 13, 13);
 }
 
-/***MENU-BOTTOM-WRAPPER**/
+/***--------------MENU-BOTTOM-WRAPPER*--------------------------*/
 div.menu-bottom-wrapper{
   display: flex;
   justify-content: space-between;
 }
 
-/**SECTION MENU LEFT RIGHT WRAP**/
+/**---------------SECTION MENU LEFT RIGHT WRAP-----------------**/
 section.menu-wrap-left{
   max-width: 500px;
 }
-/**FOOTER--WITH--BG--COLOR***/
+/**------------------FOOTER--WITH--BG--COLOR-----------------***/
 div.footer-bg{
     background-image: url("");
     background-color: #000000;
