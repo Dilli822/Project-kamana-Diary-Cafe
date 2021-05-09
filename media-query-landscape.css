@@ -1,10 +1,22 @@
+@media only screen and (max-width:1920px) and (min-width: 1080px) and (orientation: portrait){
+  .topnav{
+    height: 5vh;
+  }
+    
+  #myVideo {
+    height: auto;
+  }
+  }
 
+ 
 @media only screen and (max-width:1366px)  and (orientation: landscape){
 div.banner{
   height: 75vh;
   padding-top: 250px;
 }  
-
+#myVideo {
+  height: auto;
+}
 h1{
     margin-top: 0px;
     padding-top: 0px;
@@ -15,7 +27,7 @@ section.hr-line{
 
 } 
 .topnav{
- height: 15vh;
+ height: 5vh;
 }
 section.welcome-wrap-left{
 margin-left: 350px;
@@ -52,52 +64,38 @@ padding-top: 15px;
 }
 
 }
+
+
 /****ORIENTATION MEDIA QUERIES VARIOUS SCREEN SIZES *****/
-@media only screen and (max-width:1024px) and (orientation: landscape){
-    h1{
-        margin-top: 0px;
-        padding-top: 0px;
-        font-size: 4rem;
-        color:rgb(255, 255, 255);
-    }
-    .topnav{
-      height: 12vh;
-    }
-    section.hr-line{
-    display: none;
-  
-    }
+@media only screen and (max-width:1024px) and (min-width: 768px) and (orientation: landscape){
+   
     section.welcome-wrap-right{
-      max-width: 350px;
+      max-width: 400px;
     }
-    div.sunday-feature{
-      flex-wrap: nowrap;
-     
+
+    img.wrap-img-mid{
+      margin: 55px 10px;
+      height: auto;
+      max-width: auto;
     }
-    /*SECTION FOR LEFT PHOTO FEATURE***/
-  img.feature-left-photo{
-    max-width: 450px;
-  }
+ 
   /*SECTION FOR RIGHT PHOTO FEATURE***/
   section.feature-right-photo{
-    margin-top: 35px;
-    margin-left: 30px;
-    max-width: 500px;
+    margin-left: 20px;
+    max-width: auto;
   }
   
-  /***CLIENT'S REVIEW PART***/
-  div.review-part{
-    flex-wrap: nowrap;
   }
-  
-  
-  }
+
   
   @media only screen and (max-width:1366px)  and (orientation: landscape){
     div.banner{
       height: 75vh;
       padding-top: 250px;
     }  
+    #myVideo {
+      height: auto;
+    }
     
     h1{
         margin-top: 0px;
@@ -110,7 +108,7 @@ padding-top: 15px;
     
    } 
    .topnav{
-     height: 15vh;
+     height: 11vh;
    }
    section.welcome-wrap-left{
     margin-left: 350px;
@@ -152,6 +150,10 @@ padding-top: 15px;
     font-size: 3rem;
     color:rgb(255, 255, 255);
     margin: 50px 0px;
+  }
+
+  #myVideo {
+    height: auto;
   }
   div.banner{
     height: auto;
@@ -204,7 +206,9 @@ padding-top: 15px;
     font-size: 2rem;
     margin: 60px 0px;
   }
-  
+  #myVideo {
+    height: auto;
+  }
   .topnav {
     height: auto;
     position: static;
@@ -267,6 +271,10 @@ padding-top: 15px;
     color: rgb(255, 255, 255);
     margin: 20px 0px;
   }
+
+  #myVideo {
+    height: auto;
+  }
   section.welcome-wrap-left{
     margin-top: 60px;
     margin-left: 300px;
@@ -275,6 +283,8 @@ padding-top: 15px;
   }
   img.wrap-img-mid{
     height: 100vh;
+  
+
   }
   section.welcome-wrap-right{
     height: auto;
@@ -289,6 +299,10 @@ padding-top: 15px;
     h1{
       color: rgb(255, 255, 255);
       margin: 50px 0px;
+    }
+
+    #myVideo {
+      height: auto;
     }
    
     section.welcome-wrap-left{
@@ -321,6 +335,10 @@ padding-top: 15px;
       margin: 80px 0px;
     }
    
+
+    #myVideo {
+      height: auto;
+    }
     div.banner{
       height: auto;
       margin-top: 0px;

@@ -1,11 +1,13 @@
 
  
-
 @media only screen  and (max-width:1024px) and (min-width: 768px){ 
   div.banner{
     height: 60vh;
     padding-top: 20px;
   }  
+  #myVideo {
+    height: auto;
+  }
 
   h1{
        padding-top: 0px;
@@ -46,11 +48,17 @@ margin: 15px 25px;
     height: 100vh;
     padding-top: 60px;
   }  
+  #myVideo {
+    height: auto;
+  }
+  .topnav {
+    height: 11vh;
+  }
   h1{
        padding-top: 50px;
        font-size:5rem;
         background-color: none;
-        color: rgb(255, 255, 255);
+        color: rgb(255, 234, 234);
      }
 
      .logo-head{
@@ -76,25 +84,6 @@ section.welcome-wrap-right{
   max-width: 650px;
 }
 
-button.btn-about-us{
-  width:auto;
-}
-}
-/*8
-
-@media screen and (max-width:1920px) and (min-width: 1367px){
-  h1{
-    background-color: none;
-  }
-
-  .topnav{
-    height: 12vh;
-  }
-  section.welcome-wrap-left{
-    margin-left: 280px;
-    height: auto;
-    max-width: 380px;
-}
 button.btn-about-us{
   width:auto;
 }
