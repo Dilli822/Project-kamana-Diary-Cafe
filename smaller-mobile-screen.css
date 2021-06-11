@@ -198,23 +198,24 @@ div.footer-bg{
  aside.copyright{
   font-size: 0.6rem;
 }
-.topnav a,
+}
+  /* .topnav a,
 .topnav a:hover,
 span.social-media-icons a i:hover{
   border-bottom: none;
   transform: none;
 }
-}
+} 
 
-@media only screen and (max-width: 812px){
+ @media only screen and (max-width: 812px){
  .topnav{
    background-color: white;
-   height: auto;
- }
+    height: auto; 
+ } 
  .topnav .icon{
   color: rgb(252, 73, 8);
   font-size: 1.8rem;
   margin-top: 10px;
- }
-}
- 
+ } } 
+
+  */

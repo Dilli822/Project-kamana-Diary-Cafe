@@ -1,7 +1,7 @@
 @media only screen and (max-width:1920px) and (min-width: 1080px) and (orientation: portrait){
-  .topnav{
+  /* .topnav{
     height: 5vh;
-  }
+  } */
     
   #myVideo {
     height: auto;
@@ -26,9 +26,9 @@ section.hr-line{
   margin-left: 640px;
 
 } 
-.topnav{
+/* .topnav{
  height: 5vh;
-}
+} */
 section.welcome-wrap-left{
 margin-left: 350px;
 max-width: 80%;
@@ -107,9 +107,9 @@ padding-top: 15px;
       margin-left: 640px;
     
    } 
-   .topnav{
+   /* .topnav{
      height: 11vh;
-   }
+   } */
    section.welcome-wrap-left{
     margin-left: 350px;
     max-width: 80%;
@@ -209,9 +209,9 @@ padding-top: 15px;
   #myVideo {
     height: auto;
   }
-  .topnav {
-    height: auto;
-    position: static;
+  /* .topnav { */
+    /* height: auto; */
+    /* position: static;
   }
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -229,7 +229,7 @@ padding-top: 15px;
     display: block;
     text-align: left;
     color:black;
-  }
+  } */
   div.banner{
     height: 105vh;
   }

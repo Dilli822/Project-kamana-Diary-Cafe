@@ -66,8 +66,8 @@
     section.location iframe{
         height:auto;
         max-width: 100%;
-    }
-    .topnav {
+    } }
+    /* .topnav {
         position: static;
         overflow: visible;
         background-color: rgb(255, 255, 255);
@@ -92,12 +92,12 @@
       text-align: left;
       color: black;
     }
-}
+} */
 
 @media only screen and (max-width: 1440px) and (min-width: 900px){
-    .topnav {
+    /* .topnav {
         height: 12vh;
-    }
+    } */
     div.container-location-hours,
     div.contact-enquiry-container{
         justify-content: center;
@@ -174,9 +174,9 @@
     h1{
         color:white;
     }
-    .topnav {
+    /* .topnav {
         height: 12vh;
-    }
+    } */
      /****FORM RIGHT CONTACT BOX***/
      section.right-contact-box{
         margin-top: 50px;
@@ -203,11 +203,11 @@
         border: px solid rgb(248, 15, 15);
        }
 }
-@media only screen and (max-width: 1152px) and (min-width: 700px){
+/* @media only screen and (max-width: 1152px) and (min-width: 700px){
     .topnav {
         height: 15vh;
     }
-}
+} */
 @media only screen and (max-width: 1920px) and (min-width: 1080px) and (orientation: portrait){
     div.banner{
         background-size: 100% 100%;

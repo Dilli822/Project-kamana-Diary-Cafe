@@ -5,6 +5,10 @@
     height: 60vh;
     padding-top: 20px;
   }  
+  div.welcome-part{
+    height: auto;
+    background-image: visible;
+  }
   #myVideo {
     height: auto;
   }
@@ -23,7 +27,9 @@
  /**====WELCOME==PART==STARTS==WITH=PICS***/
  div.welcome-part{
   height: auto;
+  background-image: visible;
 }
+
 
 section.welcome-wrap-left{
   height: auto;
@@ -51,9 +57,9 @@ margin: 15px 25px;
   #myVideo {
     height: auto;
   }
-  .topnav {
+  /* .topnav {
     height: 11vh;
-  }
+  } */
   h1{
        padding-top: 50px;
        font-size:5rem;
@@ -68,11 +74,12 @@ margin: 15px 25px;
  /**====WELCOME==PART==STARTS==WITH=PICS***/
  div.welcome-part{
   height: auto;
+  background-image: none;
 }
 section.welcome-wrap-left{
-    margin-left: 200px;
+    margin-left: 20px;
     height: auto;
-    max-width: auto;
+    max-width: 300px;
 }
 
 img.wrap-img-mid{

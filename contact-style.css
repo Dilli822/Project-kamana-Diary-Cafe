@@ -21,7 +21,7 @@ input,textarea,button{
     margin-left: 150px;
     margin-top: -50px;
   }
-  
+/*   
   .topnav {
     position: fixed;
     width: 100%;
@@ -29,8 +29,8 @@ input,textarea,button{
     background-color: rgb(0, 0, 0);
     height: 10vh;
   }
-  
-  .topnav a {
+   */
+  /*.topnav a {
      font-weight: bold;
     float: right;
     display: block;
@@ -58,14 +58,15 @@ input,textarea,button{
   .topnav .icon {
     display: none;
   }
+  */
   
   @media screen and (max-width: 800px){
     .logo-head{
         width: 180px;
         margin-left: 10px;
         margin-top: -50px;
-      }
-    .topnav {
+      }}
+    /*.topnav {
       position: static;
       overflow: visible;
       background-color: rgb(255, 255, 255);
@@ -94,6 +95,7 @@ input,textarea,button{
       color: black;
     }
   }
+  */
 
 
 

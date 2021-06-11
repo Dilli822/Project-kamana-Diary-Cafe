@@ -21,8 +21,8 @@
     .topnav {
       position: static;
       overflow: visible;
-      height: auto;
-      background-color: white;
+      /* height: auto; */
+      /* background-color: white; */
     }
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {

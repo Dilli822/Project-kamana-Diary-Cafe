@@ -28,6 +28,7 @@ img{
   margin-top: -50px;
 }
 
+/*
 .topnav {
   position: fixed;
   width: 100%;
@@ -64,7 +65,7 @@ img{
 .topnav .icon {
   display: none;
 }
-
+**/
 
 div.gallery-image-content{
   display: flex;
