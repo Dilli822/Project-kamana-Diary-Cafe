@@ -35,7 +35,7 @@ img{
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   margin: 1rem;
   padding: 14px 10px;
@@ -67,6 +67,8 @@ img{
   .topnav a.icon {
     float: right;
     display: block;
+    color:#fff;
+   
   }
   .topnav a.active {
     display: none;
@@ -79,6 +81,8 @@ img{
     position: absolute;
     right: 0;
     top: 0;
+
+
   }
   .topnav.responsive a {
     float: none;
