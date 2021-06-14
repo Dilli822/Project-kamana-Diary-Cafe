@@ -220,7 +220,7 @@ div.team-wrap1{
     background-image: url("");
     width: 25vw;
     height: 70vh;
-    border: 2px solid white;
+    border: 2px solid #fff;
     object-fit: cover;
     background-size: 100% 100%;
 }
